@@ -9,190 +9,178 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Sintong Panjaitan",
+  initials: "Sian",
+  location: "Jakarta, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Jakarta",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Experienced Senior Back-End Engineer with 8 years in the finance industry, specializing in building
+      scalable, high-performance financial applications. Strong expertise in Java (Spring Boot,), Python (Flask),
+      SQL (PostgreSQL, mariaDB, oracle), and cloud deployment (GCP). Skilled in API development,
+      payment gateway integration, financial compliance, and system optimization. Successfully transitioned
+      systems from monolithic architectures to microservices, improving performance and scalability.
+      Experienced in integrating third-party services and ensuring system reliability across financial
+      applications.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/22740277?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "sintongjait@gmail.com",
+    tel: "-",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/sintongPanjaitan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/sintong-panjaitan-9372b1b6/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/sintong_notes",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Del Institute of Technology",
+      degree: "Associate Degree in  Informatics Engineering (A.Md)",
+      start: "2013",
+      end: "2016",
+    },
+    {
+      school: "Perbanas Institute",
+      degree: "Bachelor's Degree in Information System (S.Kom)",
+      start: "2017",
+      end: "2020",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Akseleran",
+      link: "https://www.akseleran.co.id/",
+      badges: ["Python", "Flask", "PostgreSQL", "Google CLoud Platform"],
+      title: "Senior Back End Engineer",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2020",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Akseleran is a P2P lending crowdfunding platform in Indonesia that connects SMEs with investors.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              <b>Cloud Deployment & Performance Scaling</b> - Transitioned system architecture from 2
+              monolithic servers to a microservices framework with over 30 decoupled services, boosting
+              scalability, resilience, and performance.Used GCP tools like Kubernetes, Pub/Sub, Compute
+              Engine, Cloud Storage (Bucket), and Logging/Monitoring, solving major performance issues and
+              improving scalability.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              <b>Lending System Development</b> – Engineered and maintained loan lifecycle processes, including
+            loan creation, lender investments, borrower disbursements, repayments, and payouts.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              <b>Third-Party API Development</b> – Built APIs that enabled external companies to integrate
+              Akseleran’s services into their platforms.
+            </li>
+            <li>
+              <b>Payment Gateway Integration</b> – Integrated multiple payment gateways and banking APIs,
+              including Midtrans, Xendit, and BCA SNAP, to enable seamless fund transfers for lenders and
+              borrowers.
+            </li>
+            <li>
+              <b>Compliance & Transaction Reporting</b> – Managed financial data reporting to regulatory bodies,
+              ensuring compliance with industry regulations.
+            </li>
+            <li>
+              <b>Digital Signature Integration</b> – Integrated Privy to enable secure and legally compliant
+              document signing.
+            </li>
+            <li>
+              <b>Customer Engagement Analytics</b> – Integrated CleverTap to provide marketing teams with
+              customer insights for better targeting.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "MyIndo",
+      link: "https://www.linkedin.com/company/myindo-cyber-media",
       badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "Java",
+        "Spring boot",
+        "Struts 2",
+        "Oracle",
+        "PostgreSQL",
+        "Thymeleaf",
       ],
-      title: "Senior Full Stack Developer",
+      title: "Java Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2016",
+      end: "2020",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          MyIndo is a technology solutions company helping businesses digitize their operations.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+                <b>Garuda Indonesia – Ticket Refund System</b>
+                <ul className="list-disc list-inside pl-4">
+                  <li>
+                    Improved and maintained the refund ticket processing system using Java (ZKoss
+                    framework) and Oracle DB.
+                  </li>
+                </ul>
+              
             </li>
+            
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+                <b>Banking Project – ATK & Stationery Management System</b>
+                <ul className="list-disc list-inside pl-4">
+                  <li>
+                    Designed and developed the Sistem Pengendalian ATK dan Barang Cetakan from scratch
+                    using Struts 2, JSP, and MariaDB.
+                  </li>
+                </ul>
+              
             </li>
+            
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+                <b>NU Mobile App Development</b>
+                <ul className="list-disc list-inside pl-4">
+                  <li>
+                    Developed the back-end and implemented news scraping from NU Online.
+                  </li>
+                  <li>
+                    Integrated DOKU payment gateway for seamless transactions.
+                  </li>
+                </ul>
+              
             </li>
+
           </ul>
         </>
       ),
     },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
+    
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
+    "Python",
+    "Flask",
+    "Java",
     "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Sprig boot",
+    "API",
+    "Thymeleaf",
+    "Google Cloud Platform"
   ],
   projects: [
     {
