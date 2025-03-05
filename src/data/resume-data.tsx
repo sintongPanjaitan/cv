@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   location: "Jakarta, Indonesia",
   locationLink: "https://www.google.com/maps/place/Jakarta",
   about:
-    "Detail-oriented Back End Engineer dedicated to building high-quality products.",
+    "Detail oriented Back End Engineer dedicated to building high-quality products.",
   summary: (
     <>
       Experienced Senior Back-End Engineer with 8 years in the finance industry, specializing in building
